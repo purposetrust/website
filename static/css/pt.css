@@ -58,7 +58,6 @@ a:visited {
 /* Mobile devices */
 @media (max-width: 480px), (min-width: 481px) and (max-width: 900px), only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation : landscape) {
   body{
-    -webkit-text-size-adjust: none;
   }
 }
 
@@ -68,6 +67,13 @@ h1 {
     font-size: 90px;
     line-height: 95px;
     width: 250px;
+    margin-bottom: 20px;
+}
+
+h1 span.ligature {
+	display: inline-block;
+	font-size: 105px;
+	text-indent: -4px;
 }
 
 ul {
@@ -81,4 +87,5 @@ ul li {
 
 ul li b {
 	display: block;
+	margin-bottom: 4px;
 }
